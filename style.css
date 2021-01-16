@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+body
+{
+    background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0%;
+}
+.hero
+{
+    color:mintcream;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: mintcream 3px 5px 5px;
+}
+.navigation
+{
+    margin-top: 20px;
+}
+.link
+{
+    text-decoration: none;
+    color: navy;
+    padding: 10px;
+    margin: 10px;
+    background-color: mintcream;
+    border-radius: 25%;
+    font-family: 'Merriweather', serif;
+    font-weight: 28px;
+    border: 2px solid navy;
+}
